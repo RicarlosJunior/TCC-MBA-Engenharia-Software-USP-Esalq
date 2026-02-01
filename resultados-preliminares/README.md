@@ -1,1 +1,1 @@
-Etapa de coleta dos dados.
+Etapa de coleta e analise dos dados.
