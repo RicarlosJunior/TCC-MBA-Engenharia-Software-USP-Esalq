@@ -1,0 +1,1 @@
+Reduzir o tempo sincronismo de pedidos de venda através do desenvolvimento de um serviço de mensageria. Melhore a coesão a coerência e ortografia do texto acima sem acrescentar ou remover nenhuma informação, faça um texto cientifico.
