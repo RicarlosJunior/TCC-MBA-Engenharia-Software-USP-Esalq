@@ -1,0 +1,8 @@
+Essa seção apresenta os resultados iniciais obtidos através da coleta dos dados por meio de entrevista com a equipe de desenvolvimento e um questionário estruturado com perguntas fechadas e organizado em escala Likert, respondidas pelos representantes técnicos de vendas (RTVs). A pesquisa foi realizada de forma anônima e voluntária, e os dados aqui contidos correspondem às informações coletadas até o momento. O objetivo central é identificar possíveis limitações e problemas enfrentados pelas pessoas envolvidas de forma direta ou indireta no processo de sincronização entre componentes e/ou aplicações. 
+Até o presente momento, o questionário contou com a participação de 30 pessoas, em sua maioria os representantes técnicos de vendas, sendo estes, os principais envolvidos em relação ao tema investigado. A aplicação do questionário se deu de forma online, não podendo ser respondido mais de uma vez pelo mesmo participante.
+
+	<<tabela resumida com as respostas>>
+	
+Analisando de forma geral, os resultado preliminares indicam um sinal positivo para necessidade de mudanças no modelo arquitetural de sincronização vigente, de fato tais resultados ainda são parciais e poderão sofrer alterações com ampliação da amostra, por isso evitando uma possível negligência  novas análises serão feitas e descritas com mais profundidade na seção de Resultados e Discussões.
+
+Melhore a coesão a coerência e ortografia do texto acima sem acrescentar ou remover nenhuma informação, faça um texto cientifico. Só que agora estou na etapa de resultado preliminares

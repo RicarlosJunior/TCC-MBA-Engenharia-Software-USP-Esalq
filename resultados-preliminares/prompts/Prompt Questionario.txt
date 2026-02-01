@@ -1,0 +1,76 @@
+Prompt 
+tenho um questionário criado para  o meu tcc, corrija possíveis erros de português, coerência e coesão
+e deixe as perguntas no modelo acadêmico, mas mantenha fielmente o que eu perguntei e o contexto 
+aplique apenas correções.
+
+1° Você já teve problemas com "lentidão" ao tentar sincronizar um novo pedido de venda: 
+
+Sim, poucas vezes. 
+Sim, muitas vezes. 
+Sim, todas as vezes que faço um novo pedido.
+Não, nunca aconteceu.
+
+2° Você já teve que refazer algum pedido de venda por algum fator externo (Ex: Internet, Servidor offline e outros):
+
+Sim, poucas vezes. 
+Sim, muitas vezes. 
+Sim, todas as vezes que faço um novo pedido.
+Não, nunca aconteceu.
+
+3° No campo com seu(s) cliente(s) já foi mencionado por eles algo negativo relacionado ao tempo gasto nesse processo
+de criação, sincronização, e analise do pedido de venda ate a finalizaçao do mesmo:
+
+Sim, poucas vezes. 
+Sim, muitas vezes. 
+Sim, todas as vezes que faço um novo pedido.
+Não, nunca foi mensionado nada.
+
+
+4° Você já foi ate o cliente para realizar alguma venda e nao conseguiu concluir no primeiro momento
+ e teve que voltar novamente no mesmo dia em outro horario ou outro dia para concluir essa operação devido a algum problema tecnico nessa parte de sincronização:
+
+Sim, poucas vezes. 
+Sim, muitas vezes. 
+Sim, todas as vezes que tento fazer um novo pedido.
+Não, nunca aconteceu.
+
+
+5° Você já perdeu alguma venda por motivos relacionados a todo esse processo de
+criação, sincronização, e analise do pedido de venda:
+
+Sim, poucas vezes. 
+Sim, muitas vezes. 
+Sim, todas as vezes que faço um novo pedido.
+Não, nunca perdi nenhuma venda.
+
+
+6° Em media quanto tempo você leva até finalizar(Receber do cliente) um pedido de venda, desde sua criaçao, 
+sincronizaçao e analise pelos departamentos reponsavéis, em condiçoes normais do dia a dia:
+
+Menos que 5 minutos.
+Entre 5 e 10 minutos. 
+Entre 10 e 15 minutos. 
+Mas do que 15 minutos.
+
+
+7° Como você define sua satisfaçao em relação ao processo atual de 
+de criação, sincronização, e analise do pedido de venda:
+
+Pessimo.
+Ruim.
+Aceitavel.
+Bom,
+Otimo.
+
+8° Se pudesser ser melhorado esse tempo nesse processo
+de criação, sincronização, e analise do pedido de venda, isso seria:
+
+Pessimo.
+Ruim.
+Desnecessario.
+Bom.
+Otimo.
+ 
+
+Perfeito 👍
+Abaixo está o mesmo questionário, com correções de português, coerência e coesão, ajustado para linguagem acadêmica, sem alterar o sentido nem o contexto das perguntas. 30/01/2026
