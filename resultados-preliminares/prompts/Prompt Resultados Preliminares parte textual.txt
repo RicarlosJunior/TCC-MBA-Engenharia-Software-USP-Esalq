@@ -1,0 +1,10 @@
+melhore a coesão, coerência e gramatica e deixe no formato acadêmico 
+dos paragrafos abaixo utilizados no item resultados preliminares, mas mantenha fielmente minha ideia 
+não mude contexto só corrigia e melhore a escrita 
+
+Complementando o restante das perguntas introduzidas no questionário, segue a segunda figura, 
+contendo o restante das perguntas e variando de “Discordo Totalmente” a “Concordo Totalmente” 
+e sua respectiva legenda, para melhor compreensão dos dados obtidos.
+
+Para ter acesso na íntegra do questionário, respostas e tabelas, basta 
+acessar o link do repositório do github adicionado na seção apêndice.
