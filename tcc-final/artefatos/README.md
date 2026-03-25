@@ -3,5 +3,4 @@ Artefatos gerados a partir dos diagramas:
 - drawio (Componentes)
 - dbdiagram (Entidade-Relacionamento modelo fisico)
 
-Imagens no formato png.
-Diagramas diretorio contendo os fontes.
+Imagens no formato png, diagramas diretorio contendo os fontes.
