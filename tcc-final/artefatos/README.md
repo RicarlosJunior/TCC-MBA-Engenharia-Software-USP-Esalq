@@ -1,1 +1,4 @@
-Artefatos gerados a partir da versao atual da arquitetura. Sem o uso do gerenciamento de filas com RabbitMQ
+Artefatos gerados a partir dos diagramas do astah e drawio.
+
+- Imagens
+- Diagramas
