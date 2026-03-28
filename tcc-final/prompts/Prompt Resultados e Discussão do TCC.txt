@@ -1,0 +1,40 @@
+Prompt referente a resultados e disculsões do TCC Melhore a coesão a coerência em todo o texto, inclusive na interligação entre os parágrafos, ortografia do texto sem acrescentar ou remover nenhuma informação, ao não ser que alguma palavra esteja muito repetitiva, não mude contexto, apenas substitua a palavra  faça um texto cientifico, mantenha as palavras em negrito como estão e o contexto!
+
+Esta seção apresenta os resultados obtidos a partir da coleta de dados realizada por meio de entrevistas com a equipe de desenvolvimento e da aplicação de um questionário estruturado, composto por perguntas fechadas organizadas segundo a escala Likert, respondido pelos representantes técnicos de vendas (RTVs).
+A partir das informações coletadas com a equipe de desenvolvimento, foi possível elaborar vários artefatos de software essenciais, tanto para a melhor compreensão do fluxo, bem como identificar os principais débitos técnicos e limitações estruturais existentes, quanto para propor novas atualizações e melhorias no processo de sincronização dos pedidos de venda. O primeiro diagrama desenvolvido foi caso de uso representando as  ações dos usuários, conforme ilustrado na Figura 1.
+
+<figura>
+
+A finalidade da figura acima é mostrar com clareza as pessoas envolvidas e suas respectivas ações delimitadas ao módulo de vendas, destacando as interações entre os responsáveis técnicos de vendas (RTVs) com o aplicativo força de vendas, em paralelo aos colaboradores administrativos e o sistema ERP.
+Em seguida, procedeu-se à descrição da sequência lógica e cronológica do fluxo atualmente utilizado. Para facilitar a compreensão e a visualização, o diagrama de sequência foi dividido em duas partes: a primeira contempla as interações originadas pelos representantes técnicos de vendas (RTVs), conforme a Figura 2; e a segunda aborda as interações provenientes das rotinas definidas pelo agendador (Polling) no ERP e pelos colaboradores, conforme a  Figura 3.
+
+<figuras>
+
+Dado a complexidade de toda a sequência descrita na figura 3 um número maior de notas explicativas foram necessárias, além disso vale ressaltar que todo esse fluxo acontece em um período de tempo agendado de seis em seis minutos, tempo mínimo requerido para que todo o processo se conclua sem perdas de dados. Com as ações (caso de uso) e interações (sequência) definidas, foi elaborado o diagrama de classes, como já é uma prática da organização documentar utilizando esse artefato, o foco foi direcionado para escopo do domínio e então especificadas as entidades e seus respectivos relacionamentos, conforme apresentado na Figura 4.
+
+<figura>
+
+Por fim, realizou-se a construção do diagrama entidade-relacionamento no modelo lógico do banco de dados, apesar deste modelo ser independente de tecnologia, o seu desenvolvimento foi embasado nos bancos de dados MySQL e Db2 que estão em produção, a ideia foi mostrar as tabelas, atributos, chaves e relacionamentos existentes.
+Observação: as mesmas tabelas do banco de dados MySQL também existem no Db2 como réplicas, mas para fins de visualização apenas duas figuras foram adicionadas ao trabalho, exemplificadas nas Figuras 5 e Figuras 6.
+
+<figuras> 
+
+Com tudo, as figuras mencionadas acima refletem a situação atual. Em paralelo foi aplicada uma pesquisa de forma anônima e voluntária, e os dados apresentados correspondem às informações coletadas. O objetivo central consiste em identificar os problemas enfrentados pelos indivíduos envolvidos, de forma direta ou indireta, no processo de sincronização entre componentes e/ou aplicações.
+O questionário contou com a participação de 33 respondentes, sendo a maioria composta por representantes técnicos de vendas, os quais configuram o principal público diretamente relacionado ao tema investigado. A aplicação do questionário ocorreu de forma online, anônima e sendo restringida a uma única resposta por participante.
+A seguir são apresentadas duas tabelas que sintetizam a distribuição percentual das respostas do questionário, obtidas por meio da escala do tipo Likert, variando de “Nunca” a “Sempre” e “Discordo Totalmente” a “Concordo Totalmente”.
+
+<tabela> 
+
+Complementando as demais questões introduzidas no questionário, apresenta-se a segunda tabela, que reúne o restante das perguntas, estruturadas em uma escala que varia de “Discordo totalmente” a “Concordo totalmente”. Para facilitar a leitura, as categorias de resposta da escala Likert foram abreviadas, sendo a descrição completa apresentada na legenda da tabela.
+
+
+<tabela>
+
+ De modo geral, os resultados indicaram um sinal positivo quanto à necessidade de mudanças no modelo arquitetural de sincronização atualmente vigente. Como já mencionado, caso isso acontecesse seria incorporação ao processo o gerenciamento de filas, com a ferramenta RabbitMQ. A adição desse recurso vai  garantir inúmeros benefícios como escalabilidade, caso o número de representantes aumente significativamente, garantia da entrega, diferente de uma chamada HTTP simples que pode dar erro 500 e perder o dado, o RabbitMQ possui mecanismos de Acknowledge (confirmação), e a principal delas possibilitar a exclusão da necessidade de polling, permitindo que as requisições de sincronização de pedidos de vendas possam ser processadas de forma assíncrona, isso sem contar no tempo de resposta que os usuários do aplicativo força de vendas passarão a ter, visto que uma vez o pedido processado pelo ERP já é enviado e consumido pela api, não se limitando a uma rotina pré-estabelecida aplicada de tempos em tempos.    
+Para atender essa necessidade novos artefatos foram criados, por se tratar de um processo considerado crítico, afinal de contas está estritamente ligado ao módulo de vendas, podendo impactar diretamente nos números financeiros da empresa, entende-se que seria primordial uma visão de alto nível. Com esse intuito foi elaborado um diagrama de componentes para mostrar a organização e os ganhos de eficiência, explicando visualmente como cada software está conectado e interagindo entre si conforme figura 7.
+
+<figura>
+
+Com essa mudança todo o fluxo precisou ser reformulado e para fins de validação e documentação um novo diagrama de sequência foi criado. Acredita-se que com essa mudança arquitetural a otimização do tempo na sincronização dos pedidos de venda que é principal objeto dessa pesquisa será alcançado. Fluxo completo apresentado na figura 8 logo abaixo.
+
+<figura> 
