@@ -1,1 +1,1 @@
-Diretório contem dos os prompts utilizados no tcc.
+Diretório contem os prompts utilizados no tcc.
