@@ -1,2 +1,2 @@
 
-Fontes para serem visualizados em suas respectivas ferramentas.
+Arquivos-fonte para serem visualizados em suas respectivas ferramentas.
