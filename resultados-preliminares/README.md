@@ -1,4 +1,4 @@
-##  Etapa de coleta e analise dos dados.
+##  Etapa de coleta e análise dos dados.
 
 📋 Questionário da Pesquisa
 
