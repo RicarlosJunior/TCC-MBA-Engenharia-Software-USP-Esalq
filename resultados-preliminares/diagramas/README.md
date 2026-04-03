@@ -1,1 +1,1 @@
-Diretorio de diagramas/imagens.
+Diretório de diagramas/imagens.
