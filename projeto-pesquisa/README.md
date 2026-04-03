@@ -1,1 +1,1 @@
-Projeto de pesquisa e FDE entregues
+Projeto de pesquisa e FDE
