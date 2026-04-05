@@ -78,17 +78,17 @@
         <mxCell id="06v3nQZjRottvvPRsCMy-79" parent="1" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=17;verticalAlign=middle;align=center;fontSize=16;strokeWidth=1;" value="Autenticação e autorização via token (JWT)&lt;br&gt;Comunicação via protocolo HTTP/REST&amp;nbsp;" vertex="1">
           <mxGeometry height="136" width="320" x="-250" y="127" as="geometry" />
         </mxCell>
-        <mxCell id="06v3nQZjRottvvPRsCMy-86" parent="1" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=15;verticalAlign=top;align=center;fontSize=16;strokeWidth=1;" value="ProdutorPedido (API)&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="48" width="170" x="298" y="66" as="geometry" />
+        <mxCell id="06v3nQZjRottvvPRsCMy-86" parent="1" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=15;verticalAlign=top;align=center;fontSize=16;strokeWidth=1;" value="Produtor de Pedido (API)&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="48" width="202" x="298" y="66" as="geometry" />
         </mxCell>
-        <mxCell id="06v3nQZjRottvvPRsCMy-89" parent="1" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=15;verticalAlign=top;align=center;fontSize=16;strokeWidth=1;" value="ConsumidorRetorno (API)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="52" width="200" x="222" y="441" as="geometry" />
+        <mxCell id="06v3nQZjRottvvPRsCMy-89" parent="1" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=15;verticalAlign=top;align=center;fontSize=16;strokeWidth=1;" value="Consumidor de Retorno (API)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="52" width="220" x="210" y="441" as="geometry" />
         </mxCell>
-        <mxCell id="06v3nQZjRottvvPRsCMy-98" parent="1" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=15;verticalAlign=top;align=center;fontSize=16;strokeWidth=1;" value="ConsumidorPedido (ERP)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="48" width="200" x="560" y="67" as="geometry" />
+        <mxCell id="06v3nQZjRottvvPRsCMy-98" parent="1" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=15;verticalAlign=top;align=center;fontSize=16;strokeWidth=1;" value="Consumidor de Pedido (ERP)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="48" width="220" x="560" y="67" as="geometry" />
         </mxCell>
-        <mxCell id="06v3nQZjRottvvPRsCMy-101" parent="1" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=15;verticalAlign=top;align=center;fontSize=16;strokeWidth=1;" value="ProdutorRetorno&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(ERP)&lt;/span&gt;" vertex="1">
-          <mxGeometry height="52" width="180" x="598" y="441" as="geometry" />
+        <mxCell id="06v3nQZjRottvvPRsCMy-101" parent="1" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=15;verticalAlign=top;align=center;fontSize=16;strokeWidth=1;" value="Produtor de Retorno&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(ERP)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="52" width="210" x="597" y="441" as="geometry" />
         </mxCell>
         <mxCell id="06v3nQZjRottvvPRsCMy-105" edge="1" parent="1" source="06v3nQZjRottvvPRsCMy-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="06v3nQZjRottvvPRsCMy-98">
           <mxGeometry relative="1" as="geometry" />
