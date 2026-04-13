@@ -1,4 +1,4 @@
-Prompt referente a resultados e disculsões do TCC Melhore a coesão a coerência em todo o texto, inclusive na interligação entre os parágrafos, ortografia do texto sem acrescentar ou remover nenhuma informação, ao não ser que alguma palavra esteja muito repetitiva, não mude contexto, apenas substitua a palavra  faça um texto cientifico, mantenha as palavras em negrito como estão e o contexto!
+Melhore a coesão a coerência em todo o texto, inclusive na interligação entre os parágrafos, ortografia do texto sem acrescentar ou remover nenhuma informação, ao não ser que alguma palavra esteja muito repetitiva, não mude contexto, apenas substitua a palavra, coloque o texto em um formato técnico científico.
 
 Esta seção apresenta os resultados obtidos a partir da coleta de dados realizada por meio de entrevistas com a equipe de desenvolvimento e da aplicação de um questionário estruturado, composto por perguntas fechadas organizadas segundo a escala Likert, respondido pelos representantes técnicos de vendas (RTVs).
 A partir das informações coletadas com a equipe de desenvolvimento, foi possível elaborar vários artefatos de software essenciais, tanto para a melhor compreensão do fluxo, bem como identificar os principais débitos técnicos e limitações estruturais existentes, quanto para propor novas atualizações e melhorias no processo de sincronização dos pedidos de venda. O primeiro diagrama desenvolvido foi caso de uso representando as  ações dos usuários, conforme ilustrado na Figura 1.
@@ -38,3 +38,5 @@ Para atender essa necessidade novos artefatos foram criados, por se tratar de um
 Com essa mudança todo o fluxo precisou ser reformulado e para fins de validação e documentação um novo diagrama de sequência foi criado. Acredita-se que com essa mudança arquitetural a otimização do tempo na sincronização dos pedidos de venda que é principal objeto dessa pesquisa será alcançado. Fluxo completo apresentado na figura 8 logo abaixo.
 
 <figura> 
+
+Data: 28/03/2026 14:35
